@@ -91,7 +91,6 @@ soft-robot-finger-sofa/
 ├── results/                  # Thư mục kết quả
 │   ├── deformation_demo.gif  # GIF mô phỏng
 │   ├── bending_comparison.png# Đồ thị so sánh E
-│   └── *.vtu                 # Dữ liệu 3D VTK
 └── docs/                     # Tài liệu báo cáo
     ├── flowchart.png         # Sơ đồ quy trình
     └── presentation.pptx     # Slide trình chiếu
