@@ -144,4 +144,4 @@ soft-robot-finger-sofa/
 3. **Bài toán va chạm:** Chưa tích hợp lực cản môi trường và mô hình va chạm (`Contact Mechanics`) khi kẹp nắm vật thể.
 
 ---
-*Báo cáo Bài tập lớn Nhập môn Mô phỏng Soft Robotics - Sinh viên thực hiện: **Nguyễn Khương Duy***
+*Báo cáo Bài tập lớn Mô phỏng Soft Robotics - Sinh viên thực hiện: **Nguyễn Khương Duy***
