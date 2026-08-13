@@ -34,7 +34,7 @@ Dự án xây dựng mô hình mô phỏng 3D phần tử hữu hạn (FEM) cho 
 ### Đồ thị so sánh biến dạng đầu mút theo 3 mức Mô-đun Young (E)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/parametric_study" alt="So sánh chuyển vị đầu mút" width="90%"/>
+  <img src="https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/parametric_study.png" alt="So sánh chuyển vị đầu mút" width="90%"/>
 </p>
 ---
 
