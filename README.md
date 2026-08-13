@@ -26,10 +26,10 @@ Dự án xây dựng mô hình mô phỏng 3D phần tử hữu hạn (FEM) cho 
 ## 🎬 3. Hình ảnh / Video kết quả
 
 ### Chuyển động uốn cong thực tế (Simulation Animation)
-![Mô phỏng uốn cong ngón tay mềm](results/deformation_demo.gif)
+![Mô phỏng uốn cong ngón tay mềm](https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/deformation_demo.gif)
 
 ### Đồ thị so sánh biến dạng đầu mút theo 3 mức Mô-đun Young (E)
-![So sánh chuyển vị đầu mút](results/bending_comparison.png)
+![So sánh chuyển vị đầu mút]![So sánh chuyển vị đầu mút](https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/parametric_study.png)
 
 ---
 
@@ -101,7 +101,7 @@ soft-robot-finger-sofa/
 ---
 
 ## 🔄 8. Flowchart mô phỏng
-![Flowchart](docs/flowchart.png)
+![Flowchart]flowchart.png
 
 ### Liên hệ giữa Flowchart và Source Code:
 1. **Khai báo mô hình & Plugin:** `finger_model.py` -> `rootNode.addObject('RequiredPlugin', ...)`
