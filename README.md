@@ -50,8 +50,6 @@ Dự án xây dựng mô hình mô phỏng 3D phần tử hữu hạn (FEM) cho 
 
 ## ⚙️ 5. Hướng dẫn cài đặt
 
-## ⚙️ 5. Hướng dẫn cài đặt
-
 ```bash
 # Bước 1: Clone Repository
 git clone [https://github.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation.git](https://github.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation.git)
