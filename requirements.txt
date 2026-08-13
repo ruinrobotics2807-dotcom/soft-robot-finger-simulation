@@ -1,0 +1,6 @@
+# Python Core Dependencies
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Lưu ý: SOFA Framework (v26+), SofaPython3 và plugin SoftRobots 
+# được cài đặt trực tiếp qua bộ cài SOFA Binaries/Source trong môi trường Python.
