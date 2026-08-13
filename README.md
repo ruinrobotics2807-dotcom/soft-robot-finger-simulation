@@ -25,11 +25,14 @@ Dự án xây dựng mô hình mô phỏng 3D phần tử hữu hạn (FEM) cho 
 
 ## 🎬 3. Hình ảnh / Video kết quả
 
-### Chuyển động uốn cong thực tế (Simulation Animation)
+### Chuyển động uốn cong thực tế (Simulation Animation) 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/deformation_demo.gif" alt="Simulation Animation" width="90%"/>
 </p>
+
 ### Đồ thị so sánh biến dạng đầu mút theo 3 mức Mô-đun Young (E)
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/parametric_study" alt="So sánh chuyển vị đầu mút" width="90%"/>
 </p>
@@ -102,19 +105,21 @@ soft-robot-finger-sofa/
 
 ---
 
-## 🔄 8. Flowchart mô phỏng
+## 8. Flowchart mô phỏng
+
 <p align="center">
   <img src="docs/flowchart.png" alt="Flowchart" width="80%"/>
 </p>
+
 ### Liên hệ giữa Flowchart và Source Code:
+
 1. **Khai báo mô hình & Plugin:** `finger_model.py` -> `rootNode.addObject('RequiredPlugin', ...)`
 2. **Khai báo vật liệu & Tham số:** `config.py` & `finger_model.py` -> `HexahedronFEMForceField(youngModulus=E_val)`
-3. **Điều kiện biên:** `finger_model.py` -> `BoxROI` và `FixedConstraint` tại mặt đáy Z = 0
-4. **Khai báo Actuation:** `finger_model.py` -> `CableConstraint` lệch tâm X = 6 mm
+3. **Điều kiện biên:** `finger_model.py` -> `BoxROI` và `FixedConstraint` tại mặt đáy $Z = 0$
+4. **Khai báo Actuation:** `finger_model.py` -> `CableConstraint` lệch tâm $X = 6\text{ mm}$
 5. **Thiết lập Solver:** `finger_model.py` -> `EulerImplicitSolver` & `SparseLDLSolver`
 6. **Chạy mô phỏng:** `main.py` -> Vòng lặp `Sofa.Simulation.animate(root)` trong 100 bước
 7. **Xuất & Trực quan hóa:** `VTKExporter` xuất file `.vtu` ra `results/` và `main.py` vẽ đồ thị `matplotlib`
-
 ---
 
 ## 📊 9. Các tham số chính
