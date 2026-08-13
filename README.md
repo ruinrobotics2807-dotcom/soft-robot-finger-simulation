@@ -50,25 +50,18 @@ Dự án xây dựng mô hình mô phỏng 3D phần tử hữu hạn (FEM) cho 
 
 ## ⚙️ 5. Hướng dẫn cài đặt
 
-### Bước 1: Clone Repository
-```bash
-git clone [https://github.com/your-username/soft-robot-finger-sofa.git](https://github.com/your-username/soft-robot-finger-sofa.git)
-cd soft-robot-finger-sofa
-```
+**Bước 1: Clone Repository**
+git clone [https://github.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation.git](https://github.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation.git)
+cd soft-robot-finger-simulation
 
-### Bước 2: Tạo môi trường ảo và cài đặt thư viện
-```bash
+**Bước 2: Tạo môi trường ảo và cài đặt thư viện**
 python3 -m venv venv
 source venv/bin/activate  # Trên Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
 
-### Bước 3: Cấu hình biến môi trường SOFA
+**Bước 3: Cấu hình biến môi trường SOFA**
 Đảm bảo đường dẫn `PYTHONPATH` đã bao gồm thư viện `SofaPython3`:
-```bash
 export PYTHONPATH=$PYTHONPATH:/path/to/sofa/plugins/SofaPython3/lib/python3/site-packages
-```
-
 ---
 
 ## 🚀 6. Lệnh chạy chương trình
