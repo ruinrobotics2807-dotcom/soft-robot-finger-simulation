@@ -26,11 +26,13 @@ Dự án xây dựng mô hình mô phỏng 3D phần tử hữu hạn (FEM) cho 
 ## 🎬 3. Hình ảnh / Video kết quả
 
 ### Chuyển động uốn cong thực tế (Simulation Animation)
-![Mô phỏng uốn cong ngón tay mềm](https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/deformation_demo.gif)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/deformation_demo.gif" alt="Simulation Animation" width="90%"/>
+</p>
 ### Đồ thị so sánh biến dạng đầu mút theo 3 mức Mô-đun Young (E)
-![So sánh chuyển vị đầu mút]![So sánh chuyển vị đầu mút](https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/parametric_study.png)
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ruinrobotics2807-dotcom/soft-robot-finger-simulation/main/results/parametric_study" alt="So sánh chuyển vị đầu mút" width="90%"/>
+</p>
 ---
 
 ## 💻 4. Phiên bản phần mềm và thư viện
@@ -101,8 +103,9 @@ soft-robot-finger-sofa/
 ---
 
 ## 🔄 8. Flowchart mô phỏng
-![Flowchart]flowchart.png
-
+<p align="center">
+  <img src="docs/flowchart.png" alt="Flowchart" width="80%"/>
+</p>
 ### Liên hệ giữa Flowchart và Source Code:
 1. **Khai báo mô hình & Plugin:** `finger_model.py` -> `rootNode.addObject('RequiredPlugin', ...)`
 2. **Khai báo vật liệu & Tham số:** `config.py` & `finger_model.py` -> `HexahedronFEMForceField(youngModulus=E_val)`
